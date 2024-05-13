@@ -28,3 +28,9 @@ pip install -r requirements.txt
 ```
 6. Alternatively, `pip install [package_name]` then add package name to `requirements.txt`.
 7. To uninstall, use `pip uninstall [package_name]` and remove from `requirements.txt`.
+
+## Export to HTML
+To export a Jupyter notebook to HTML, run the following code within the notebook:
+```
+!jupyter nbconvert --to html [notebook_name].ipynb
+```
